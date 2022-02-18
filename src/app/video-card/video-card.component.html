@@ -1,0 +1,13 @@
+<div class="div-image" [style.background]="background">
+
+    <div class="div-bar" [style]="!b_Release ? 'height: 3rem' : '' " >
+        <div style="margin-left: 1rem">
+            <span class="span-title" [style]="!b_Release ? 'font-size: 1.1rem' : '' ">{{movie?.nm_movie}}</span>
+            <p class="p-release" *ngIf="b_Release">Release date: {{movie?.dt_release}}</p>
+        </div>
+
+        <div class="div-rating">
+            {{movie?.nr_stars}} <img src="assets/icons/star.svg">
+        </div>
+    </div>
+</div>

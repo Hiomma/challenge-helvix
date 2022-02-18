@@ -1,0 +1,61 @@
+<div class="div-background">
+
+    <div class="div-searchbar">
+        <input>
+
+        <div class="div-search">
+            <img src="assets/icons/search.svg">
+        </div>
+    </div>
+
+    <div class="div-logo">
+        <img src="assets/images/logo.svg" alt="logo" class="img-logo">
+    </div>
+
+
+    <div class="div-movies">
+        <div>
+            <h4 class="h4-title">Popular</h4>
+
+            <div class="div-cards-left">
+                <div class="div-card-left">
+                    <video-card [b_Release]="false" [movie]="movies[0]"></video-card>
+                </div>
+
+                <div class="div-card-left">
+                    <video-card [b_Release]="false" [movie]="movies[1]"></video-card>
+                </div>
+
+                <div class="div-card-left">
+                    <video-card [b_Release]="false" [movie]="movies[2]"></video-card>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4 class="h4-title">New movies</h4>
+
+            <div class="div-cards-right">
+                <div style="display: flex; gap: 3rem;">
+                    <div class="div-card-right">
+                        <video-card [movie]="movies[3]"></video-card>
+                    </div>
+
+                    <div class="div-card-right">
+                        <video-card [movie]="movies[4]"></video-card>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 3rem;">
+                    <div class="div-card-right">
+                        <video-card [movie]="movies[5]"></video-card>
+                    </div>
+
+                    <div class="div-card-right">
+                        <video-card [movie]="movies[6]"></video-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

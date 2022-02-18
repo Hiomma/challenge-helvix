@@ -1,0 +1,41 @@
+.div-image {
+    background: orange;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.div-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(18, 18, 18, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    color: white;
+
+    .div-rating{
+        margin-right: 1rem;
+        font-size: .8rem;
+        font-weight: bold;
+        margin-top: .25rem;
+    }
+
+    .span-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .p-release{
+        margin: 0;
+        font-size: .8rem;
+    }
+}

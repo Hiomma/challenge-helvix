@@ -1,0 +1,71 @@
+.div-background {
+    background: #121212;
+    padding-top: 3rem;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.div-logo {
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+}
+
+.div-searchbar {
+    margin: 0 auto;
+    width: 36rem;
+    position: relative;
+
+    .div-search{
+        position: absolute;
+        right: 1rem;
+        top: .6rem;
+    }
+
+    input {
+        background: #0d0d0d;
+        border: none;
+        border-radius: 1rem;
+        height: 3.5rem;
+        width: 36rem;
+    }
+}
+
+.div-movies {
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+
+    .h4-title {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .div-cards-left {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        border-right: 1px solid #565656;
+        padding-right: 3rem;
+
+        .div-card-left {
+            height: 170px;
+            width: 280px;
+        }
+    }
+
+    .div-cards-right {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        .div-card-right {
+            height: 256px;
+            width: 420px;
+        }
+    }
+}
+
